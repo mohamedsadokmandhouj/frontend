@@ -1,0 +1,42 @@
+.navbar-custom {
+    background-color: #000000; 
+    padding: 1rem;
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-weight: bold;
+    color: #e50914; 
+  }
+  
+  .navbar-custom .nav-link {
+    color: #fff;
+    margin-right: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #e50914;
+  }
+  
+  .navbar-custom .search-form input {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  .navbar-custom .search-form button {
+    color: #e50914;
+    border-color: #e50914;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-custom .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .navbar-custom .search-form {
+      margin-top: 1rem;
+    }
+  }
+  

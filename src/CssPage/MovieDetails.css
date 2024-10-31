@@ -1,0 +1,62 @@
+/* MovieDetails.css */
+
+.movie-details-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #141414; /* Dark background similar to Netflix */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    color: #ffffff; /* White text for contrast */
+  }
+  
+  .movie-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Or another sleek font */
+    color: #e50914; /* Netflix red */
+  }
+  
+  .movie-poster {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    border: 2px solid #e50914; /* Border similar to Netflix */
+  }
+  
+  .movie-poster:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #b3b3b3; /* Lighter gray for description text */
+  }
+  
+  .trailer {
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914; /* Netflix red */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #f40612; /* Darker red on hover */
+  }
+    
